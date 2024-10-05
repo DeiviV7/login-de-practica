@@ -1,0 +1,143 @@
+:root{
+    --fuente-:Arial, Helvetica, sans-serif;
+}
+
+.body{
+    background-color:#2f3640;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    
+ 
+}
+
+.body2{
+    background-color:#2f3640;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 500px;
+
+}
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    color: #4cd137;
+    gap: 18px;
+    font-family:var(--fuente-);
+    
+} 
+
+.container2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    color: #4cd137;
+    gap: 18px;
+    font-family:var(--fuente-);
+    
+}
+
+
+.inpt{
+    display: flex;
+    justify-content: space-around;
+    gap: 18px;
+    
+    }
+
+.imput{
+    width: 30px;
+    height: 35px;
+    text-align: center;
+    font-family:var(--fuente-);
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #2f3640;
+    border-radius: 5px;
+    border: 2px solid #299a17;
+    
+    
+
+}
+
+.parrafo{
+    color: azure;
+    font-family:var(--fuente-);
+    
+}
+
+.boton{
+    width: 6rem;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2.5px solid;
+    color: #299a17;
+    background-color: #2f3640;
+    
+    
+}
+
+
+
+.boton:hover{
+    background-color: #4cd137;
+    color: #2f3640;
+    border: #299a17;
+   
+    
+}
+
+.principal{
+    
+    border-radius: 20px;
+    margin-top: 100px;
+    max-width: 500px;;
+    max-height: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}    
+
+.principal:hover{
+    box-shadow: 0 4px 8px 0 rgba(33, 192, 57, 0.2), 0 6px 20px 0 rgba(22, 160, 25, 0.19);
+}
+
+.imputs{
+    border-radius: 7px;
+    border: #299a17 solid 2px;
+    background-color: #2f3640;
+    padding: 5px;
+    width: 10rem;
+    font-family: var(--fuente-);
+    color: aliceblue;
+    
+}
+
+.input_container{
+    position: relative;
+    
+}
+label {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    pointer-events: none;
+}
